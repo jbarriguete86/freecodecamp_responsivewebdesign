@@ -1,0 +1,135 @@
+/*-----------------------MAJOR CHANGES -----------------*/
+
+body {
+    text-align: center;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+
+}
+
+hr {
+    margin: 35px 0;
+    height: 2px;
+    border-color: rgb(49, 49, 49);
+    background-color: rgb(49, 49, 49);
+}
+
+
+.registration-form {
+    width:50%;
+    margin: auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    background-color: rgb(12, 2, 26);
+    border: none;
+    height: 25px;
+    margin: 10px 0 4px;
+
+}
+
+/*-----------FIRST SECTION -------------*/
+
+.first-questions .questions {
+    margin: auto;
+    text-align: left;
+}
+
+/*-----------SECOND SECTION -------------*/
+.second-questions {
+    text-align: left;
+}
+
+.second-questions .questions {
+    margin-bottom: 10px;
+}
+
+#personal-account, #business-account, #terms {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.second-questions label {
+    padding-left: 10px;
+}
+
+.terms-link {
+    color: white;
+}
+
+.terms-link:visited {
+    color: wihte;
+}
+
+.terms-link:active {
+    color:white;
+}
+
+/*----------THIRD SECTION -------------*/
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width:100%;
+    background-color: rgb(12, 2, 26);
+    border:  none;
+}
+
+.third-questions {
+    text-align: left;
+}
+
+/*----------THIRD SECTION -------------*/
+
+.btn-section {
+    padding-top: 45px;
+
+    
+}
+
+button {
+    width: 55%;
+    height: 35px;
+    font-size: medium;
+    background-color: rgba(169, 169, 169, 0.25);
+    color: white;
+    border-color: white;
+}
+
+/*------ GO BACK BUTTON ---*/
+
+.btn-div {
+    margin: 20px auto;
+    text-align: right;
+    height: 30px;
+
+  }
+
+  .go-back {
+    color: black;
+    font-style: normal;
+    font-size: 30px;
+    width: 300px;
+    min-width: 120px;
+    height: 70px;
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 10px;
+  }
+
+  .mm-link:link {
+    text-decoration: none;
+  }
+
+  .mm-link:visited {
+    text-decoration: none;
+  }
+/*------ FREECODECAMP CODE ----- */
+
+/*
+
