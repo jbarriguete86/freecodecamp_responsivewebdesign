@@ -56,7 +56,7 @@ a {
 
 }
 
-.survey-section {
+.cer-section {
     width: 100%;
     border-right: none;
     padding: unset;
@@ -64,7 +64,7 @@ a {
     margin: unset;
 }
 
-.survey-section button {
+.cer-section button {
     width: 30%;
     margin: unset;
     padding: unset;
@@ -96,5 +96,9 @@ a {
 
 .second {
     background-color: rgba(5, 83, 66, 0.2);
+}
+
+.third {
+    background-color: rgba(185, 59, 27, 0.2);
 }
 

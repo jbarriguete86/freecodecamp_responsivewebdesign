@@ -1,0 +1,129 @@
+body {
+    background-color: rgb(195, 241, 241);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    border: 20px solid white;
+    margin: 0;
+}
+
+/*------ Header section ----*/
+
+header {
+    width: 100%;
+    text-align: center;
+    margin: 35px 0 0;
+    padding: 10px 0;
+}
+
+#title {
+    font-family: "Montserrat Bold", sans-serif;
+    font-weight: 700;
+}
+
+.django-intro {
+    font-family: "Montserrat ExtraLight", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+
+
+/*-----Figure section ----*/
+
+#img-div {
+    display: block;
+
+    width: 98%;
+    height:auto;
+    background-color: white;
+    margin: 20px auto;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    color:brown;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*---- Main text section ---*/
+
+#tribute-info {
+        width: 60%;
+        max-width: 700px;
+        vertical-align: middle;
+        text-align: justify;
+        margin: 35px auto;
+        
+}
+
+
+.main-text {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dates {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.main-info {
+    display: flex;
+   flex-direction: row-reverse;
+
+}
+
+.indent {
+    display: inline-flex;
+}
+.last-info {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    color:rgb(94, 73, 3);
+}
+
+/*---- Footer section ---*/
+#last-part {
+    text-align: center;
+    font-family: "Montserrat ExtraBold", sans-serif;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+/*------ GO BACK BUTTON ---*/
+
+.btn-div {
+    margin: 20px auto;
+    text-align: right;
+    height: 30px;
+
+  }
+
+  .go-back {
+    color: black;
+    font-style: normal;
+    font-size: 30px;
+    width: 300px;
+    min-width: 120px;
+    height: 70px;
+    background-color: rgba(255,255,255, 0.8);
+    border-radius: 10px;
+  }
+
+  .mm-link:link {
+    text-decoration: none;
+  }
+
+  .mm-link:visited {
+    text-decoration: none;
+  }
